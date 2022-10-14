@@ -1,4 +1,6 @@
+com\inetbanking\utilities\DbUtilsTwo.class
 com\inetbanking\pageobjects\LoginPage.class
 com\inetbanking\testcases\BaseTest.class
 com\inetbanking\testcases\Tc_LoginTest_001.class
+com\inetbanking\utilities\DbUtils.class
 com\inetbanking\TestClass.class
