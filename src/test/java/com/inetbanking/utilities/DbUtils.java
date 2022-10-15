@@ -47,7 +47,7 @@ public class DbUtils {
 		// System.out.println(rsmd.getCatalogName(1));                                          // ankurdb
 		// System.out.println(rsmd.getColumnTypeName(1));                                          // Int
 		System.out.println(rsmd.getColumnLabel(1)+ "  "+rsmd.getColumnLabel(2) );              // prints the column name
-		
+		//fghfghfghfghfg
 		
 		while (resultSet.next()) {
 			
