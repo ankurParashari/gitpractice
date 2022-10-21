@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.371 sec
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.103 s <<< FAILURE! - in TestSuite
+com.inetbanking.testcases.Tc_LoginTest_001.loginTest  Time elapsed: 6.659 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=106.0.5249.119): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-UPUAP0AE', ip: '192.168.29.237', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ANKURP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a60b56e5efbdd923694c1e44bb862218
+*** Element info: {Using=name, value=btnLogin}
+	at com.inetbanking.testcases.Tc_LoginTest_001.loginTest(Tc_LoginTest_001.java:19)
+
